@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #FFF;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #bdc2d4;
+    border-radius: 5px;
+  }
+body {
+    font-family: "Arimo", sans-serif;
+    scroll-behavior: smooth;
+}
+
+

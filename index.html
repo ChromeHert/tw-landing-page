@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'>
+        </script>    
+        <script src="https://cdn.tailwindcss.com"></script>
+    <title>"Your name"</title>
+</head>
+
+<body>
+    <main>
+        <!-----------NAVBAR--------->
+        <section id="home" class="bg-gradient-to-r from-[#FB8C1A] to-[#FCC300]">
+            <header
+                class="container relative mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center">
+                <a href="#" class="flex items-center whitespace-nowrap text-3xl font-bold text-white"> "Your name" </a>
+                <input type="checkbox" class="peer hidden" id="navbar-open" />
+                <label class="absolute top-5 right-5 cursor-pointer lg:hidden" for="navbar-open">
+                    <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </label>
+                <nav aria-label="Header Navigation"
+                    class="peer-checked:pt-8 peer-checked:max-h-80 flex max-h-0 w-full flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
+                    <ul
+                        class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0 font-medium">
+                        <li class="lg:mr-12"> <a href="#home"
+                                class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-white transition-all duration-300 ease-in-out hover:border-b-[#1E266D] hover:text-gray-500">Home</a>
+                        </li>
+
+                        <li class="lg:mr-12"> <a href="#product"
+                                class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-white transition-all duration-300 ease-in-out hover:border-b-[#1E266D] hover:text-gray-500">Products</a>
+                        </li>
+
+                        <li class="lg:mr-12"> <a href="#about"
+                                class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-white transition-all duration-300 ease-in-out hover:border-b-[#1E266D] hover:text-gray-500">Company</a>
+                        </li>
+
+                        <li class="lg:mr-12"> <a href="#pricing"
+                                class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-white transition-all duration-300 ease-in-out hover:border-b-[#1E266D] hover:text-gray-500">Pricing</a>
+                        </li>
+
+                        <li class="lg:mr-12"> <a href="#blog"
+                                class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-white transition-all duration-300 ease-in-out hover:border-b-[#1E266D] hover:text-gray-500">Blog</a>
+                        </li>
+                    </ul>
+                    <hr class="mt-4 w-full lg:hidden" />
+                    <div
+                        class="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
+                        <a href="#" title=""
+                            class="whitespace-nowrap rounded-full px-5 py-3 font-medium transition-all duration-200 focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2 text-white hover:bg-yellow-900">
+                            Log in</a>
+
+                        <a href="#" title=""
+                            class="whitespace-nowrap rounded-full px-5 py-3 font-medium text-white transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-yellow-900">Sign Up</a>
+                    </div>
+                </nav>
+            </header>
+        </section>
+
+
+        <!-----------HERO-SECTION--------->
+            <div id="hero-slide" class="owl-carousel">
+                <div class="relative">
+                    <img src="/Assets/hcarousel1.png" alt="" class="absolute inset-0 w-full h-full object-cover brightness-50" >
+                    <div class="container mx-auto px-4 py-36 relative">
+                        <div class="lg:w-2/3 w-full mx-auto">
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-center">Cheap Data Bundle</h1>
+                            <p class="mb-8 leading-relaxed text-white text-center">Buy Data for all networks (MTN, GLO, AIRTEL, 9MOBILE) at the cheapest rate ever. Data is valid for 1 month and works with all internet enabled devices (Android, iPhones, Computers, Modems, Routers, Mifi)</p>
+                            <div class="flex justify-center">
+                                <button class="inline-flex text-white bg-[#FFA500] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="relative">
+                    <img src="/Assets/hcarousel1.png" alt="" class="absolute inset-0 w-full h-full object-cover brightness-50" >
+                    <div class="container mx-auto px-4 py-36 relative">
+                        <div class="lg:w-2/3 w-full mx-auto">
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-center">Instant Airtime Top Up</h1>
+                            <p class="mb-8 leading-relaxed text-white text-center">Both vtu and recharge pins for all networks are available on this platform. Also not that with "Your name" you can convert your excess airtime to cash in you bank account.</p>
+                            <div class="flex justify-center">
+                                <button class="inline-flex text-white bg-[#FFA500] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <img src="/Assets/hcarousel1.png" alt="" class="absolute inset-0 w-full h-full object-cover brightness-50" >
+                    <div class="container mx-auto px-4 py-36 relative">
+                        <div class="lg:w-2/3 w-full mx-auto">
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-center">Automated Electricity Bills Payment</h1>
+                            <p class="mb-8 leading-relaxed text-white text-center">Simple, convinient and affordable electricity bills payment from the comfort of your home. Recieve instant tokens generated for your meter...</p>
+                            <div class="flex justify-center">
+                                <button class="inline-flex text-white bg-[#FFA500] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <img src="/Assets/hcarousel1.png" alt="" class="absolute inset-0 w-full h-full object-cover brightness-50" >
+                    <div class="container mx-auto px-4 py-36 relative">
+                        <div class="lg:w-2/3 w-full mx-auto">
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white text-center">Cheap and affordable Bulk SMS services</h1>
+                            <p class="mb-8 leading-relaxed text-white text-center">Send customized bulk sms to multiple phone numbers easily with instant delivery over our robust bulk SMS servers. Two ways sms also available for your other needs.</p>
+                            <div class="flex justify-center">
+                                <button class="inline-flex text-white bg-[#FFA500] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!---------EXCLUSIVE-SERVICES------------>
+        <section class="container p-6 mx-auto space-y-3 dark:bg-gray-800 dark:text-white mt-24">
+            <p class="mb-8 leading-relaxed text-center">SERVICES</p>
+            <h4 class="text-xl font-bold text-[#FFA500] capitalize dark:text-gray-300 md:text-3xl text-center">THE SERVICES WE OFFER</h4>
+            <div class="flex items-center justify-center">
+                <div class="grid gap-8 my-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+                    <!-- cards -->
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-56 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <i class="fa-solid fa-tv"></i>
+                                    <h5 class="text-lg font-bold text-[#221668] py-4">Data Bundles</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Start enjoying this very low rates
+                                        Data plan for your internet browsing data bundle</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-56 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <i class='fas fa-chart-bar'></i>
+                                    <h5 class="text-lg font-bold text-[#221668] py-4">Airtime Recharge (VTU)</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Start enjoying this very low rates
+                                        Data plan for your internet browsing data bundle</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-56 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <i class="fa-regular fa-image"></i>
+                                    <h5 class="text-lg font-bold text-[#221668] py-4">Cable TV/Electricity Payments</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Start enjoying this very low rates
+                                        Data plan for your internet browsing data bundle</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-56 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <i class="fas fa-link"></i>
+                                    <h5 class="text-lg font-bold text-[#221668] py-4">Exam Cards</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Start enjoying this very low rates
+                                        Data plan for your internet browsing data bundle</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-56 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <h5 class="text-lg font-bold text-[#221668] py-4">Electricity Bills Payment</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Start enjoying this very low rates
+                                        Data plan for your internet browsing data bundle</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="w-full max-w-xs text-center" data-aos="fade-up" data-aos-duration="3000">
+                        <a href="/">
+                            <div
+                                class="object-cover object-center w-full h-56 mx-auto rounded-lg bg-[#F3F4F6] dark:border-gray-600">
+                                <div class="py-8 px-4">
+                                    <i class="material-icons">date_range</i>
+                                    <h5 class="text-lg font-bold text-[#221668] py-4">Bulk SMS</h5>
+                                    <span class="mt-1 text-base dark:text-gray-400">Start enjoying this very low rates Data plan for your internet browsing data bundle</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------FOOTER-------->
+        <footer class="bg-[#FFA500]">
+            <div class="max-w-screen-lg px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto pt-10">
+                <div class="p-5">
+                    <h3 class="font-bold text-xl text-white">"Your name"</h3>
+                </div>
+                <div class="p-5 text-white">
+                    <div class="text-sm uppercase font-bold">Resources</div>
+                    <a class="my-3 block" href="/#">Documentation <span class="text-xs p-1"></span></a><a
+                        class="my-3 block" href="/#">Tutorials <span class="text-xs p-1"></span></a><a
+                        class="my-3 block" href="/#">Support <span class="text-xs p-1">New</span></a>
+                </div>
+                <div class="p-5 text-white">
+                    <div class="text-sm uppercase font-bold">Support</div>
+                    <a class="my-3 block" href="/#">Help Center <span class="text-xs p-1"></span></a><a
+                        class="my-3 block" href="/#">Privacy Policy <span class="text-xs p-1"></span></a><a
+                        class="my-3 block" href="/#">Conditions <span class="text-xs p-1"></span></a>
+                </div>
+                <div class="p-5 text-white">
+                    <div class="text-sm uppercase font-bold">Contact us</div>
+                    <a class="my-3 block" href="/#">XXX XXXX, Lagos, Nigeria
+                        <span class="text-xs p-1"></span></a>
+
+                    <a class="my-3 block" href="/#">contact@company.com
+                        <span class=" text-xs p-1"></span></a>
+                </div>
+            </div>
+
+            <div class="pt-2">
+                <div class="flex pb-5 px-3 m-auto pt-5 text-[#5c5c5c] text-sm flex-col
+        max-w-screen-lg items-center border-t-2">
+                    <div class="my-2">© Copyright 2020. All Rights Reserved.</div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+   </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            $(document).ready(function(){
+            $("#hero-slide").owlCarousel({
+                items:1,
+                loop:true,
+                margin:10,
+                merge:true,
+                responsive:{
+                    678:{
+                        mergeFit:true
+                    },
+                    1000:{
+                        mergeFit:true
+                    }
+                        },
+                autoplay:true,
+                autoplayTimeout:3000,
+                autoplayHoverPause:true,
+            });
+
+        });
+        </script>
+</body>
+
+</html>
